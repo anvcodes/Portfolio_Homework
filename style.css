@@ -67,3 +67,32 @@ body {
   font-weight: 600;
   color: rgb(15, 180, 221);
 }
+
+@media screen and (max-width: 768px)
+{
+  body{
+    background-color: black;
+  }
+
+  header{
+    margin:20%;
+    margin-bottom: 110px;
+    
+  }
+
+  .right{
+    
+    margin-top: 18%;
+  }
+   
+  li{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  p{
+    padding: 10px;
+    
+   
+  }
+}
