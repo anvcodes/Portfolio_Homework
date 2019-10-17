@@ -1,72 +1,49 @@
 
-body {
-  background-image: url(https://www.njea.org/wp-content/uploads/2014/10/Coding.jpg);
-  /* border: 20px; */
+body{
+  background-image: url(https://stmed.net/sites/default/files/wall-wallpapers-25346-616321.jpg);
 }
-.wrapper{
-  height: 300px;
-  text-align: center;
-  color: antiquewhite;
-  font-size: 16px;
-  margin-top: 5%;
-  background-color:transparent;
-  max-height: 200%;
+.container{
 
-
+background-color: rgb(158, 19, 19);
 }
 
-.left{
-  
-  text-align: center;
-  background-color: transparent;
-  float: left;
-  width: 450px;
-  height: 250px;
-  margin-left: 2%;
-  border:1px solid whitesmoke;
-
-}
-.right{
-  background-color: rgba(8, 6, 6, 0.685);
-  float: right;
-  width: 225px;
-  height: 250px;
-  margin-right: 24.75%;
-  border: 1px solid whitesmoke;
-  margin-top: 0, auto;
-  color:whitesmoke;
-  font-size: 14px;
-
-  
-
-}
-
-#bio-image{
-  position: fixed;
-  margin-top: 0;
-  margin-left: 50%;
-  width: 200px;
-  height: 250px;
-}
-.parent{
-  text-align: center;
-  position: relative;
-  background-color:transparent;
-  top: 1%;
-  padding: 10px;
-
-}
-
-.child{
-  text-align: center;
+#aboutMeSection{
   position: absolute;
-  background-color:transparent;
-  top: 20px;
-  margin-left: 27%;
-  font-size: 45px;
-  font-weight: 600;
-  color: rgb(15, 180, 221);
+  background-color: rgb(34, 31, 31);
+  color: whitesmoke;
+  left: 15%;
+ right: 15%;
+ padding: 10px;
+ margin-top: 3%;
 }
+
+#history{
+  position: absolute;
+  top: 55%;
+  color: whitesmoke;
+  background-color: rgb(26, 24, 24);
+  left:15%;
+  right: 15%;
+}
+
+#leftCol{
+ 
+}
+
+#rightCol{
+ 
+}
+
+#achieve, #wrkHist, #education{
+  height: 125px;
+}
+
+.card-header{
+  color: black;
+}
+
+
+
 
 @media screen and (max-width: 768px)
 {
