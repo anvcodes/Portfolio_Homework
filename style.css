@@ -30,19 +30,40 @@ background-color: rgb(158, 19, 19);
  
 }
 
-#rightCol{
- 
-}
+
 
 #achieve, #wrkHist, #education{
   height: 125px;
-}
-
-.card-header{
-  color: black;
+  width: 500px;
 }
 
 
+#wrkHist{
+  margin-top: 15%;
+}
+
+#webpages{
+  margin-top: 15%;
+  background-color: black;
+  margin-left: 15%;
+}
+
+#repositories{
+  background-color: black;
+  margin-left: 15%;
+
+}
+
+#lang{
+  margin-top: 12%;
+  background-color: black;
+  margin-left: 15%;
+}
+
+.card-dark{
+  margin-left: 4%;
+  
+}
 
 
 @media screen and (max-width: 768px)
